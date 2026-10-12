@@ -33,7 +33,7 @@ export default function SiteFooter() {
           <div className="text-muted-foreground text-sm max-md:text-balance max-md:text-center">
             Build by{" "}
             <a
-              href="https://github.com/MrInspection"
+              href="https://github.com/Trixmas"
               target="_blank"
               rel="noreferrer"
               className="underline underline-offset-4"
@@ -42,7 +42,7 @@ export default function SiteFooter() {
             </a>
             . The source is available on{" "}
             <a
-              href="https://github.com/MrInspection/design-tool-landing-page"
+              href="https://github.com/Trixmas/design-tool-landing-page"
               target="_blank"
               rel="noreferrer"
               className="underline underline-offset-4"
@@ -53,7 +53,7 @@ export default function SiteFooter() {
           </div>
           <div className="max-md:hidden">
             <Link
-              href="https://github.com/MrInspection/design-tool-landing-page"
+              href="https://github.com/Trixmas/design-tool-landing-page"
               target="_blank"
               rel="noreferrer"
               className={cn(buttonVariants({ variant: "outline", size: "sm" }))}
