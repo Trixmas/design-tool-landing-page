@@ -18,7 +18,7 @@ export function CallToAction() {
       { x: "-50%" },
       { duration: 30, ease: "linear", repeat: Number.POSITIVE_INFINITY },
     );
-  }, []);
+  }, [scope.current, animate]);
 
   useEffect(() => {
     if (animation.current) {

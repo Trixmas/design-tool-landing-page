@@ -78,7 +78,7 @@ export function FeaturesSection() {
                     loop
                     muted
                     playsInline
-                    className="-translate-x-1/2 pointer-events-none absolute bottom-full left-1/2 rounded-2xl opacity-0 shadow-xl transition duration-500 group-hover:opacity-100"
+                    className="pointer-events-none absolute bottom-full left-1/2 -translate-x-1/2 rounded-2xl opacity-0 shadow-xl transition duration-500 group-hover:opacity-100"
                   />
                 </span>{" "}
                 growth this year.

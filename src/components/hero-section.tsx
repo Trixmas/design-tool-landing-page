@@ -43,7 +43,16 @@ export function HeroSection() {
       [rightPointerScope.current, { x: 175, y: 0 }, { duration: 0.5 }],
       [rightPointerScope.current, { x: 0, y: [0, 20, 0] }, { duration: 0.5 }],
     ]);
-  }, []);
+  }, [
+    rightDesignScope.current,
+    rightPointerScope.current,
+    rightDesignAnimate,
+    leftDesignScope.current,
+    rightPointerAnimate,
+    leftPointerScope.current,
+    leftPointerAnimate,
+    leftDesignAnimate,
+  ]);
 
   return (
     <section
@@ -56,7 +65,7 @@ export function HeroSection() {
           initial={{ opacity: 0, x: -100, y: 100 }}
           drag
           dragSnapToOrigin={true}
-          className="-left-32 absolute top-16 max-xl:hidden"
+          className="absolute top-16 -left-32 max-xl:hidden"
         >
           <Image
             src={DesignExample1}
@@ -78,7 +87,7 @@ export function HeroSection() {
           drag
           dragSnapToOrigin={true}
           initial={{ opacity: 0, x: 100, y: 100 }}
-          className="-right-32 -top-16 absolute max-xl:hidden"
+          className="absolute -top-16 -right-32 max-xl:hidden"
         >
           <Image
             src={DesignExample2}
@@ -91,7 +100,7 @@ export function HeroSection() {
         <motion.div
           ref={rightPointerScope}
           initial={{ opacity: 0, x: 275, y: 100 }}
-          className="-top-4 absolute right-80 max-xl:hidden"
+          className="absolute -top-4 right-80 max-xl:hidden"
         >
           <Pointer displayName="Clarisse" color="pink" />
         </motion.div>

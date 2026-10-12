@@ -49,7 +49,7 @@ export default function SiteHeader() {
                   buttonVariants({
                     variant: "ghost",
                     className:
-                      "-ml-2 mr-2 h-8 w-8 cursor-pointer px-0 text-base transition duration-300 hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden",
+                      "mr-2 -ml-2 h-8 w-8 cursor-pointer px-0 text-base transition duration-300 hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden",
                   }),
                 )}
                 onClick={() => setIsOpen(!isOpen)}
